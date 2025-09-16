@@ -53,11 +53,7 @@ Preview the production build locally:
 npm run preview
 ```
 
-### Scripts (from package.json)
-- `dev`: Start Vite dev server
-- `build`: Build with Vite
-- `lint`: Run ESLint
-- `preview`: Preview the production build
+
 
 ### Project Structure
 ```text
@@ -89,14 +85,6 @@ project/
 ### How It Works (Brief)
 - `src/services/atmService.ts` seeds demo accounts, stores data in `localStorage`, and exposes methods for login, balance checks, deposits, withdrawals, and fetching transaction history.
 - UI components in `src/components/` orchestrate flow from login to main menu and individual operations.
-- TailwindCSS styles provide a compact, responsive UI suitable for small screens.
-
-### Environment & Deployment
-- No environment variables are required for the demo.
-- Can be deployed to any static host (e.g., Netlify, Vercel, GitHub Pages).
-- For Netlify: build command `npm run build`, publish directory `dist`.
-
-### License
-MIT
+- TailwindCSS styles provide a compact, responsive UI suitable for small screens
 
 
